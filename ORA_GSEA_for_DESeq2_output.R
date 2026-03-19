@@ -3,7 +3,8 @@
 ######################################################
 
 # Author:   Hannes Reinwald
-# Contact:  hannes.reinwald@ime.fraunhofer.de
+# Maintainer: Fabian Essfeld
+# Contact:  fabian.essfeld@ime.fraunhofer.de
 
 # README: -------------------------------------------------------------------------------
 # This script performs Over Represenation Analysis (ORA) with a set of predefined diff. expressed
