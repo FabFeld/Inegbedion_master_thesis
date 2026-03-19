@@ -64,7 +64,7 @@ require(hexbin)
 
 # Define the potential directories
 directories <- c(
-  "DESeq2_functions"
+  "fun"
 )
 
 # Initialize an empty list for files
