@@ -1,7 +1,8 @@
 ### DESeq2 RNA Seq Analysis Script for multiple factors / treatments ###
 
 # Author:  Hannes Reinwald
-# Contact: hannes.reinwald@ime.fraunhofer.de
+# Maintainer: Fabian Essfeld
+# Contact: fabian.essfeld@ime.fraunhofer.de
 
 # README # --------------------------------------------------------------------
 # This script is desgined to run DESeq2 normalization and statistical testing on RNAseq experiments
@@ -21,7 +22,7 @@
 # 4) Multiple t-testing with Benjamin-Hochberg correction (padj < 0.05) 
 #    and independet hypothesis weighing (IHW) to identify DEGs
 #    for LFC and apeglm(LFC) values for H0: LFC = 0; apeglm(LFC) = 0
-# 4.1) Annotation of Genelists via org.Dr.eg.db [https://www.bioconductor.org/packages/release/data/annotation/html/org.Dr.eg.db.html]
+# 4.1) Annotation of Genelists via org.Dmagna.eg.db [available at 10.5281/zenodo.17976141]
 # 4.2) DEGs with LFC / apeglm(LFC) > < abs(LFcutOff) are kept as potential molecular marker features
 
 # 5) Plotting
@@ -60,9 +61,7 @@ require(dplyr)
 
 # Define the potential directories
 directories <- c(
-  "DESeq2_functions",
-  "Z:/bioinformatik/DESeq2/fun",
-  "//mint//data//Attract//Scripts//Rscripts//r_deseq2_deg_analysis//DESeq2_functions"
+  "DESeq2_functions"
 )
 
 # Initialize an empty list for files
@@ -298,7 +297,8 @@ message("Done!\n")
 ###  CUSTOM OrgDb annotation via AnnoDbi   ###
 ##############################################
 #' Run gene Id (GID) annotation with custom built OrgDb anno packages
-#' Packages can be found on Zenodo or under: "S:/AnnoDbi/"
+#' Package can be found on Zenodo (10.5281/zenodo.17976141)
+ 
 
 ## Annotation orgDb to work with:
 orgDb = "org.Dmagna.eg.db"
