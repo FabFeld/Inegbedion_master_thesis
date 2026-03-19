@@ -3,7 +3,8 @@
 #######################################################################
 
 # Author:   Hannes Reinwald
-# Contact:  hannes.reinwald@bayer.com
+# Maintainer: Fabian Essfeld
+# Contact:  fabian.essfeld@ime.fraunhofer.de
 
 ### README: ### -------------------------------------------------------------------------------
 # This script performs Over Represenation Analysis (ORA) with a set of predefined diff. expressed
@@ -27,7 +28,7 @@
 
 ###############
 
-install.packages("devtools", type = "binary")
+#install.packages("devtools", type = "binary")
 ###  PACKAGES  ### --------------------------------------------------------------------------
 require(dplyr)
 require(clusterProfiler)
