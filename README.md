@@ -29,13 +29,13 @@ Additional dependencies are listed in individual scripts.
 ---
 
 ## Architecture
-
+```
 ├── DESeq2_pairwise_dmagna.R
 ├── DESeq2_pairwise_drerio.R
 ├── ORA_GSEA_for_DESeq2_output.R
 ├── ORA+GSEA_for_orgDb.Dmagna_SAC.R
 └── fun/                 # Reusable helper functions
-
+```
 
 ---
 
