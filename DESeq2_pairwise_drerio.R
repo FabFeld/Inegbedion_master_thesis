@@ -64,9 +64,7 @@ require(hexbin)
 
 # Define the potential directories
 directories <- c(
-  "DESeq2_functions",
-  "Z:/bioinformatik/DESeq2/fun",
-  "//mint//data//Attract//Scripts//Rscripts//r_deseq2_deg_analysis//DESeq2_functions"
+  "DESeq2_functions"
 )
 
 # Initialize an empty list for files
